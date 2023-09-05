@@ -45,7 +45,7 @@ app.layout = html.Div(children=[
                     value=[0, 10000]
                    ),
 
-    html.Div(dcc.Graph(id='success-payload-scatter-chart'))  # Add a closing parenthesis here
+    html.Div(dcc.Graph(id='success-payload-scatter-chart'))
 ])
 
 
